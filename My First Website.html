@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      background: #020617;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: #38bdf8;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: #38bdf8;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 10px;
+    }
+
+    .btn {
+      background: #38bdf8;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>Sriram M</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#goals">Goals</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a passionate learner focused on AI, finance, and entrepreneurship. I love solving problems and building systems that create impact.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card">Python, SQL, Excel, Power BI</div>
+  <div class="card">Machine Learning, Data Analysis</div>
+  <div class="card">MongoDB, Web Development</div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+    <h3>Finance Portfolio Tracker</h3>
+    <p>Track mutual funds and stock investments.</p>
+  </div>
+
+  <div class="card">
+    <h3>AI Chatbot</h3>
+    <p>Personal assistant using AI.</p>
+  </div>
+</section>
+
+<section id="goals">
+  <h2>My Goals</h2>
+  <ul>
+    <li>Become AI Engineer</li>
+    <li>Build startup</li>
+    <li>Achieve financial freedom</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <button class="btn" onclick="contact()">Click to Contact</button>
+</section>
+
+<footer>
+  <p>© 2026 oshawk999s@gmail.com</p>
+</footer>
+
+<script>
+  function contact() {
+    alert("You can reach me at your email!");
+  }
+</script>
+  
+</body>
+</html>
